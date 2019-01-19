@@ -1,0 +1,17 @@
+<!--
+  Turtlebot 3
+  Client bringup lauch file.
+
+  Ed Epp
+  2/14/18
+  epp@zdome.net
+  -->
+
+<launch>
+    <include file="$(find turtlebot3_bringup)/launch/turtlebot3_core.launch"
+    />
+
+    <include file="$(find turtlebot3_bringup)/launch/turtlebot3_lidar.launch"
+    />
+
+</launch>
